@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup - Quiz Application</title>
+<link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  > 
+     <style>
+                * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .signup-container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width:100%;
+            text-align: center;
+        }
+        .signup-container h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .input-field {
+            width: 50%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            outline: none;
+        }
+        .input-field:focus {
+            border-color: #2a3d72;
+        }
+        .button {
+            background-color: #2a3d72;
+            color: white;
+            padding: 12px 20px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            width: 50%;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .already-member {
+            margin-top: 15px;
+        }
+        .already-member a {
+            color: #2a3d72;
+            text-decoration: none;
+        }
+        .already-member a:hover {
+            text-decoration: underline;
+        }
+        
+        header {
+            background-color: #2a3d72;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+        
+        .footer {
+            background-color: #2a3d72;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .footer p {
+            font-size: 1rem;
+        }
+
+        .footer a {
+            color: #ff8e45;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            color: #2a3d72;
+        }
+
+    </style>
+</head>
+<body>
+    {{>navbar}}
+    {{!-- {{>header}} --}}
+    <div class="signup-container">
+        <h1>Sign Up</h1>
+        <form action="/auth/register" method="POST" id="signupForm">
+            <input type="text" id="name" name="username" class="input-field" placeholder="Full Name" required>
+            <input type="email" id="email" name="email" class="input-field" placeholder="Email Address" required>
+            <input type="password" id="password" name="password" class="input-field" placeholder="Password" required>
+             {{#if msg}}
+    <div class="error-message">
+      <p style="color: red;">{{msg}}</p>
+    </div>
+  {{/if}}
+            <button type="submit" class="button">Sign Up</button>
+        </form>
+        <div class="already-member">
+            <p>Already a member? <a href="/auth/login">Login</a></p>
+        </div>
+    </div>
+    {{>footer}}/
+
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{subject}} Quiz</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 36px;
+      color: #333;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+
+    .question-list {
+      margin-bottom: 30px;
+    }
+
+    .question-card {
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .question-text {
+      font-size: 20px;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    .options {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .option {
+      cursor: pointer;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    input[type="radio"] {
+      margin-right: 10px;
+      accent-color: #007bff; /* Change radio button color */
+    }
+
+    .submit-btn-container {
+      text-align: center;
+    }
+
+    .submit-btn {
+      background-color: #007bff;
+      color: #fff;
+      font-size: 18px;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .submit-btn:hover {
+      background-color: #0056b3;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .container {
+        width: 90%;
+      }
+
+      .question-text {
+        font-size: 18px;
+      }
+
+      .option {
+        font-size: 16px;
+      }
+
+      .submit-btn {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>{{subject}} Quiz</h1>
+    </header>
+
+    <form action="/quiz/dashboard/score" method="POST">
+      <div class="question-list">
+        <input type="hidden" name="subject" value="{{subject}}">
+        {{#each questions}}
+          <div class="question-card">
+            <p class="question-text">{{this.question}}</p>
+            <div class="options">
+              {{#each this.options}}
+                <!-- Assign a unique name attribute to each question to group radio buttons -->
+                <label class="option">
+                  <input type="radio" name="question_{{@../index}}" value="{{this}}">
+                  {{this}}
+                </label>
+              {{/each}}
+            </div>
+          </div>
+        {{/each}}
+      </div>
+
+      <div class="submit-btn-container">
+        <button type="submit" class="submit-btn">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
+

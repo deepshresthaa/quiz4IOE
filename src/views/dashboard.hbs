@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{subject}} Quiz Results</title>
+    <style>
+      body { font-family: 'Arial', sans-serif; background-color: #f4f7fa; color:
+      #333; line-height: 1.6; text-align: center; padding: 20px; } .dashboard {
+      background-color: #fff; padding: 30px; margin: 20px auto; max-width:
+      600px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); } h1
+      { font-size: 28px; margin-bottom: 20px; } .score { font-size: 24px;
+      margin-bottom: 10px; color: #007bff; } .summary { font-size: 18px;
+      margin-bottom: 20px; } .retry-btn { padding: 10px 20px; background-color:
+      #007bff; color: #fff; font-size: 16px; border: none; border-radius: 5px;
+      cursor: pointer; } .retry-btn:hover { background-color: #0056b3; }
+    </style>
+  </head>
+  <body>
+    <div class="dashboard">
+      <h1>{{subject}} Quiz Results</h1>
+      <p class="score">Your Score: {{score}}/{{total}}</p>
+      <p class="summary">You got
+        {{score}}
+        out of
+        {{total}}
+        questions correct.</p>
+      <button
+        class="retry-btn"
+        onclick="window.location.href='/quiz/takequiz'"
+      >Retry Quiz</button>
+    </div>
+  </body>
+</html>

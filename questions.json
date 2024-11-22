@@ -1,0 +1,747 @@
+[{
+  "_id": {
+    "$oid": "673db6e055be6e7ab3b52247"
+  },
+  "subject": "mathematics",
+  "questions": [
+    {
+      "question": "The roots of equation x^2+2xi-1 are:",
+      "options": ["real and distinct","complex and distinct","real but identical","complex but identical"],
+      "correctAnswer": "complex but identical"
+    },
+    {
+      "question": "If the eccentricity of the two ellipse ((x^2)/(144)) + ((y^2)/(49)) and ((x^2)/((x^2))) + ((y^2)/((y^2)))=1 are equal , the he value of a/b is:",
+      "options": ["7/12","8/12","12/7","12/8"],
+      "correctAnswer": "12/7"
+    },
+    {
+      "question": "The cardinality of power set of null is:",
+      "options": ["0","1","2","infinite"],
+      "correctAnswer": "1"
+    },
+    {
+      "question": "If x^2-3xy+2y^2=10 then dy/dx=",
+      "options": ["-((3x-4y)/(2x-3y))","-((2x-3y)/(3x-4y))","(3x-4y)/(2x-3y)","(2x-3y)/(3x-4y)"],
+      "correctAnswer": "(2x-3y)/(3x-4y)"
+    },
+    {
+      "question": "The area between the curves y=x^2 and y=2-x^2 is:",
+      "options": ["4/3","8/3","4","none of these"],
+      "correctAnswer": "8/3"
+    },
+    {
+      "question": "What is the derivative of cos(x)?",
+      "options": [
+        "-sin(x)",
+        "sin(x)",
+        "tan(x)",
+        "-cos(x)"
+      ],
+      "correctAnswer": "-sin(x)"
+    },
+    {
+      "question": "What is the integral of x^2?",
+      "options": [
+        "x^3/3",
+        "x^2/2",
+        "2x",
+        "x^3/2"
+      ],
+      "correctAnswer": "x^3/3"
+    },
+    {
+      "question": "What is the value of π (pi) to two decimal places?",
+      "options": [
+        "3.14",
+        "3.16",
+        "3.00",
+        "3.1415"
+      ],
+      "correctAnswer": "3.14"
+    },
+    {
+      "question": "What is the derivative of x^2?",
+      "options": [
+        "2x",
+        "x",
+        "x^2",
+        "0"
+      ],
+      "correctAnswer": "2x"
+    },
+    {
+      "question": "What is the integral of sin(x)?",
+      "options": [
+        "-cos(x)",
+        "cos(x)",
+        "sin(x)",
+        "-sin(x)"
+      ],
+      "correctAnswer": "-cos(x)"
+    },
+    {
+      "question": "What is 5! (5 factorial)?",
+      "options": [
+        "120",
+        "24",
+        "60",
+        "150"
+      ],
+      "correctAnswer": "120"
+    },
+    {
+      "question": "What is the area of a circle with radius 4?",
+      "options": [
+        "16π",
+        "8π",
+        "4π",
+        "32π"
+      ],
+      "correctAnswer": "16π"
+    },
+    {
+      "question": "What is the equation of a straight line?",
+      "options": [
+        "y = mx + b",
+        "y = x^2",
+        "y = ax + b",
+        "y = sin(x)"
+      ],
+      "correctAnswer": "y = mx + b"
+    },
+    {
+      "question": "What is the value of √64?",
+      "options": [
+        "8",
+        "6",
+        "10",
+        "4"
+      ],
+      "correctAnswer": "8"
+    },
+    {
+      "question": "What is the integral of cos(x)?",
+      "options": [
+        "sin(x)",
+        "-sin(x)",
+        "cos(x)",
+        "tan(x)"
+      ],
+      "correctAnswer": "sin(x)"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673db6e055be6e7ab3b52248"
+  },
+  "subject": "physics",
+  "questions": [
+    
+        {
+          "question": "A body is executing simple harmonic motion with an angular frequency 2 rad/s. The velocity of the body at 20 mm displacement, when the amplitude of motion is 60 mm, is:",
+          "options": ["40 mm/s", "60 mm/s", "113 mm/s", "120 mm/s"],
+          "correctAnswer": "113 mm/s"
+        
+    },
+    {
+      "question": "Which of the following is not a perfectly inelastic collision?",
+      "options": [
+        "Striking of two glass balls",
+        "A bullet striking a bag of sand",
+        "An electron captured by a proton",
+        "A man jumping onto a moving cart"
+      ],
+      "correctAnswer": "Striking of two glass balls"
+    },
+
+
+
+    {
+      "question": "In an electrolyte, 3.2 × 10^18 bivalent positive ions drift to the right per second while 3.6 × 10^18 monovalent negative ions drift to the left per second. Then the current is:",
+      "options": [
+        "1.6 amp to the left",
+        "1.6 amp to the right",
+        "0.45 amp to the right",
+        "0.45 amp to the left"
+      ],
+      "correctAnswer": "1.6 amp to the right"
+    },
+    {
+      "question":"The primary windng of a transformer has 100 turns and its secondary winding has 200 turns. The primary is connected to an ac supply of 120 V and the current flowing in it is 10A. The voltage and the current in the secondary are:",
+      "options":["240 V, 5 A","240 V, 10 A","60 V, 20 V","120 V, 20 A"],
+      "correctAnswer":"240 V, 10 A"
+    },
+    
+    {
+      "question": "What is the SI unit of force?",
+      "options": [
+        "Newton",
+        "Joule",
+        "Pascal",
+        "Watt"
+      ],
+      "correctAnswer": "Newton"
+    },
+    {
+      "question": "Who developed the theory of relativity?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Nikola Tesla",
+        "Marie Curie"
+      ],
+      "correctAnswer": "Albert Einstein"
+    },
+    {
+      "question": "What is the speed of light in vacuum?",
+      "options": [
+        "3 × 10^8 m/s",
+        "2 × 10^8 m/s",
+        "3 × 10^6 m/s",
+        "3 × 10^7 m/s"
+      ],
+      "correctAnswer": "3 × 10^8 m/s"
+    },
+    {
+      "question": "What is the first law of thermodynamics?",
+      "options": [
+        "Energy cannot be created or destroyed",
+        "Force equals mass times acceleration",
+        "Objects in motion stay in motion",
+        "For every action there is an equal and opposite reaction"
+      ],
+      "correctAnswer": "Energy cannot be created or destroyed"
+    },
+    {
+      "question": "What is the unit of electric current?",
+      "options": [
+        "Ampere",
+        "Volt",
+        "Watt",
+        "Ohm"
+      ],
+      "correctAnswer": "Ampere"
+    },
+    {
+      "question": "What is the atomic number of Hydrogen?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "correctAnswer": "1"
+    },
+    {
+      "question": "What is the acceleration due to gravity on Earth?",
+      "options": [
+        "9.8 m/s²",
+        "9.81 m/s²",
+        "10 m/s²",
+        "8.9 m/s²"
+      ],
+      "correctAnswer": "9.8 m/s²"
+    },
+    {
+      "question": "What is the formula for kinetic energy?",
+      "options": [
+        "KE = 1/2 mv²",
+        "KE = mgh",
+        "KE = mv",
+        "KE = 1/2 mgh"
+      ],
+      "correctAnswer": "KE = 1/2 mv²"
+    },
+    {
+      "question": "What is the unit of energy?",
+      "options": [
+        "Joule",
+        "Watt",
+        "Ampere",
+        "Coulomb"
+      ],
+      "correctAnswer": "Joule"
+    },
+    {
+      "question": "What is the principle behind the operation of a lever?",
+      "options": [
+        "Mechanical advantage",
+        "Electromagnetic induction",
+        "Magnetic force",
+        "Thermodynamic equilibrium"
+      ],
+      "correctAnswer": "Mechanical advantage"
+    }
+  ]
+},
+{
+  "subject":"chemistry",
+  "questions":[
+    {
+      "question":"he gas produced by reacting zinc with concentrated sulphuric acid is:",
+      "options":["hydrogen","suphur dioxide","sulphur trioxide","both hydrogen and sulphur dioxide"],
+      "correctAnswer":"sulphur dioxide"
+    },
+    {
+      "question":"Which one of the following salt is most acidic in water:",
+      "options":["NiCl2","BeCl2","FeCl3","AlCl3"],
+      "correctAnswer":"AlCl3"
+    },
+    {
+      "question":"The number of oxygen atoms in 4.4 g of CO2 is approximately:",
+      "options":["1.2*10^23","6*10^22","6*10^23","12*10^23"],
+      "correctAnswer":"1.2*10^23"
+    }
+  ]
+},
+{
+  "subject":"english",
+  "questions":[
+    
+    {
+      "question":"Jamal wants to go to the movies, but he doesn't have enough money.",
+      "options":["a simple sentence","a compound sentence","a complex sentence","a compound-complex sentence"],
+      "correctAnswer":"a compound sentence"
+    },
+    {
+      "question":"I am sure I _____ him at the party last night.",
+      "options":["saw","had seen","have seen","had been seeing"],
+      "correctAnswer":"saw"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673db6e055be6e7ab3b52249"
+  },
+  "subject": "geography",
+  "questions": [
+    {
+      "question": "What is the largest ocean on Earth?",
+      "options": [
+        "Atlantic",
+        "Indian",
+        "Arctic",
+        "Pacific"
+      ],
+      "correctAnswer": "Pacific"
+    },
+    {
+      "question": "Which country has the largest land area?",
+      "options": [
+        "Canada",
+        "Russia",
+        "United States",
+        "China"
+      ],
+      "correctAnswer": "Russia"
+    },
+    {
+      "question": "What is the capital of France?",
+      "options": [
+        "Berlin",
+        "Paris",
+        "Rome",
+        "Madrid"
+      ],
+      "correctAnswer": "Paris"
+    },
+    {
+      "question": "Which river is the longest in the world?",
+      "options": [
+        "Amazon",
+        "Nile",
+        "Yangtze",
+        "Mississippi"
+      ],
+      "correctAnswer": "Amazon"
+    },
+    {
+      "question": "What is the tallest mountain on Earth?",
+      "options": [
+        "K2",
+        "Mount Everest",
+        "Kangchenjunga",
+        "Mount Kilimanjaro"
+      ],
+      "correctAnswer": "Mount Everest"
+    },
+    {
+      "question": "Which continent is known as the 'Dark Continent'?",
+      "options": [
+        "Asia",
+        "Africa",
+        "Europe",
+        "South America"
+      ],
+      "correctAnswer": "Africa"
+    },
+    {
+      "question": "What is the currency of Japan?",
+      "options": [
+        "Yuan",
+        "Won",
+        "Yen",
+        "Ringgit"
+      ],
+      "correctAnswer": "Yen"
+    },
+    {
+      "question": "What is the largest desert in the world?",
+      "options": [
+        "Sahara",
+        "Arabian",
+        "Gobi",
+        "Karakum"
+      ],
+      "correctAnswer": "Sahara"
+    },
+    {
+      "question": "Which country has the most islands?",
+      "options": [
+        "Sweden",
+        "Norway",
+        "Finland",
+        "Canada"
+      ],
+      "correctAnswer": "Sweden"
+    },
+    {
+      "question": "What is the capital of Australia?",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Brisbane",
+        "Canberra"
+      ],
+      "correctAnswer": "Canberra"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673db6e055be6e7ab3b5224a"
+  },
+  "subject": "language",
+  "questions": [
+    {
+      "question": "What is the plural of 'child'?",
+      "options": [
+        "Children",
+        "Childs",
+        "Childer",
+        "Childrens"
+      ],
+      "correctAnswer": "Children"
+    },
+    {
+      "question": "Which of the following is an antonym of 'happy'?",
+      "options": [
+        "Sad",
+        "Joyful",
+        "Cheerful",
+        "Delighted"
+      ],
+      "correctAnswer": "Sad"
+    },
+    {
+      "question": "Which of the following is a synonym of 'quick'?",
+      "options": [
+        "Fast",
+        "Slow",
+        "Careful",
+        "Heavy"
+      ],
+      "correctAnswer": "Fast"
+    },
+    {
+      "question": "Which of the following is a homophone of 'sea'?",
+      "options": [
+        "See",
+        "See",
+        "Ce",
+        "Se"
+      ],
+      "correctAnswer": "See"
+    },
+    {
+      "question": "What is the past tense of 'go'?",
+      "options": [
+        "Gone",
+        "Went",
+        "Goes",
+        "Going"
+      ],
+      "correctAnswer": "Went"
+    },
+    {
+      "question": "What is the opposite of 'light'?",
+      "options": [
+        "Heavy",
+        "Dark",
+        "Bright",
+        "Weighty"
+      ],
+      "correctAnswer": "Dark"
+    },
+    {
+      "question": "Which of these is a compound word?",
+      "options": [
+        "Sunlight",
+        "Suns",
+        "Light",
+        "Sun"
+      ],
+      "correctAnswer": "Sunlight"
+    },
+    {
+      "question": "What is the meaning of the word 'benevolent'?",
+      "options": [
+        "Kind",
+        "Evil",
+        "Angry",
+        "Selfish"
+      ],
+      "correctAnswer": "Kind"
+    },
+    {
+      "question": "Which of the following is an adjective?",
+      "options": [
+        "Beautiful",
+        "Happily",
+        "Run",
+        "Quickly"
+      ],
+      "correctAnswer": "Beautiful"
+    },
+    {
+      "question": "What is the meaning of the word 'meticulous'?",
+      "options": [
+        "Careful",
+        "Lazy",
+        "Fast",
+        "Messy"
+      ],
+      "correctAnswer": "Careful"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673db94355be6e7ab3b5224c"
+  },
+  "subject": "astronomy",
+  "questions": [
+    {
+      "question": "What is the largest planet in our solar system?",
+      "options": [
+        "Earth",
+        "Jupiter",
+        "Mars",
+        "Saturn"
+      ],
+      "correctAnswer": "Jupiter"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Saturn",
+        "Uranus"
+      ],
+      "correctAnswer": "Mars"
+    },
+    {
+      "question": "What is the closest star to Earth?",
+      "options": [
+        "Alpha Centauri",
+        "Proxima Centauri",
+        "The Sun",
+        "Sirius"
+      ],
+      "correctAnswer": "The Sun"
+    },
+    {
+      "question": "Which planet has the most moons?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
+      "correctAnswer": "Saturn"
+    },
+    {
+      "question": "What is the name of the galaxy that contains our solar system?",
+      "options": [
+        "The Andromeda Galaxy",
+        "The Milky Way Galaxy",
+        "The Whirlpool Galaxy",
+        "The Sombrero Galaxy"
+      ],
+      "correctAnswer": "The Milky Way Galaxy"
+    },
+    {
+      "question": "Which of these is the largest moon of Saturn?",
+      "options": [
+        "Titan",
+        "Enceladus",
+        "Mimas",
+        "Iapetus"
+      ],
+      "correctAnswer": "Titan"
+    },
+    {
+      "question": "Which planet is known for its Great Red Spot?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Jupiter",
+        "Saturn"
+      ],
+      "correctAnswer": "Jupiter"
+    },
+    {
+      "question": "What is the hottest planet in our solar system?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Earth"
+      ],
+      "correctAnswer": "Venus"
+    },
+    {
+      "question": "Which planet is known for its rings?",
+      "options": [
+        "Earth",
+        "Saturn",
+        "Jupiter",
+        "Neptune"
+      ],
+      "correctAnswer": "Saturn"
+    },
+    {
+      "question": "What is the name of Earth's moon?",
+      "options": [
+        "Phobos",
+        "Titan",
+        "Luna",
+        "Deimos"
+      ],
+      "correctAnswer": "Luna"
+    },
+    {
+      "question": "What is the process by which stars are born?",
+      "options": [
+        "Supernova",
+        "Fusion",
+        "Nuclear Fission",
+        "Stellar Nebula"
+      ],
+      "correctAnswer": "Stellar Nebula"
+    },
+    {
+      "question": "What is the name of the first human to walk on the Moon?",
+      "options": [
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "John Glenn"
+      ],
+      "correctAnswer": "Neil Armstrong"
+    },
+    {
+      "question": "What is the name of the red giant star closest to Earth?",
+      "options": [
+        "Alpha Centauri",
+        "Betelgeuse",
+        "Sirius",
+        "Antares"
+      ],
+      "correctAnswer": "Betelgeuse"
+    },
+    {
+      "question": "What type of galaxy is the Milky Way?",
+      "options": [
+        "Elliptical",
+        "Spiral",
+        "Irregular",
+        "Lenticular"
+      ],
+      "correctAnswer": "Spiral"
+    },
+    {
+      "question": "What is the name of the NASA telescope launched in 1990?",
+      "options": [
+        "Hubble Space Telescope",
+        "James Webb Space Telescope",
+        "Chandra X-ray Observatory",
+        "Kepler Space Telescope"
+      ],
+      "correctAnswer": "Hubble Space Telescope"
+    },
+    {
+      "question": "What is the name of the spacecraft that landed on the asteroid Bennu in 2018?",
+      "options": [
+        "Voyager 1",
+        "New Horizons",
+        "OSIRIS-REx",
+        "Rosetta"
+      ],
+      "correctAnswer": "OSIRIS-REx"
+    },
+    {
+      "question": "What is the term for the path a planet follows around the Sun?",
+      "options": [
+        "Rotation",
+        "Axis",
+        "Orbit",
+        "Ecliptic"
+      ],
+      "correctAnswer": "Orbit"
+    },
+    {
+      "question": "What is the name of the largest volcano in the solar system?",
+      "options": [
+        "Mount Everest",
+        "Olympus Mons",
+        "Mount Fuji",
+        "Kilimanjaro"
+      ],
+      "correctAnswer": "Olympus Mons"
+    },
+    {
+      "question": "What is the age of the Earth?",
+      "options": [
+        "4.5 million years",
+        "4.5 billion years",
+        "3.5 billion years",
+        "5 billion years"
+      ],
+      "correctAnswer": "4.5 billion years"
+    },
+    {
+      "question": "What is the phenomenon that causes the Moon to appear red during a lunar eclipse?",
+      "options": [
+        "Solar Flare",
+        "Tidal Forces",
+        "Rayleigh Scattering",
+        "Total Eclipse"
+      ],
+      "correctAnswer": "Rayleigh Scattering"
+    },
+    {
+      "question": "What planet is closest to the Sun?",
+      "options": [
+        "Venus",
+        "Earth",
+        "Mercury",
+        "Mars"
+      ],
+      "correctAnswer": "Mercury"
+    }
+  ]
+}]
